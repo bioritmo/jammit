@@ -1,24 +1,7 @@
-==
-       _  _   __  __ __  __ ___ _____ 
-    _ | |/_\ |  \/  |  \/  |_ _|_   _|
-   | || / _ \| |\/| | |\/| || |  | |  
-    \__/_/ \_\_|  |_|_|  |_|___| |_|
-    
-    
-  Jammit is an industrial strength asset packaging library for Rails,
-  providing both the CSS and JavaScript concatenation and compression
-  that you'd expect, as well as ahead-of-time gzipping, built-in JavaScript
-  template support, and optional Data-URI / MHTML image embedding.
-  
-  Installation:
-  gem install jammit
-  
-  For documentation, usage, and examples, see:
-  http://documentcloud.github.com/jammit/
-  
-  To suggest a feature or report a bug:
-  http://github.com/documentcloud/jammit/issues/
-  
-  For internal source docs, see:
-  http://documentcloud.github.com/jammit/doc/
-  
+this entire fork is only used to release the current (1/2/14) head of master of the original jammit gem so that bundler would fetch it using a Gemfile. The head currently contains a critical fix for Rails 4 which is not yet released on the main repository (I've opened an issue).
+
+In the meantime, if you'd like to use my fork, simply add
+```
+gem 'jammit', :github => 'shaioz/jammit'
+```
+into your Gemfile instead of the current entry for jammit.
