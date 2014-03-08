@@ -4,4 +4,10 @@ In the meantime, if you'd like to use my fork, simply add
 ```
 gem 'jammit', :github => 'shaioz/jammit'
 ```
-into your Gemfile instead of the current entry for jammit.
+into your Gemfile instead of the current entry for jammit, and run
+
+```
+bundle update jammit
+```
+
+in your RoR app base folder.
