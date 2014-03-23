@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths     = ['lib']
   s.executables       = ['jammit']
 
-  s.extra_rdoc_files  = ['README']
+  s.extra_rdoc_files  = ['README.md']
   s.rdoc_options      << '--title'    << 'Jammit' <<
                          '--exclude'  << 'test' <<
                          '--main'     << 'README' <<
